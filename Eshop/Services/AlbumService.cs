@@ -6,14 +6,14 @@ namespace Eshop.Services
 {
     public class AlbumService : IAlbumService
     {
-        private readonly AlbumDAO _albumDAO;
+        private readonly IAlbumDAO _albumDAO;
 
-        public AlbumService(AlbumDAO albumDAO)
+        public AlbumService(IAlbumDAO albumDAO)
         {
             _albumDAO = albumDAO;
         }
 
-        public Album GetAlbumById(int albumId)
+        public Album? GetAlbumById(int albumId)
         {
             return _albumDAO.GetAlbumById(albumId);
         }
@@ -29,17 +29,28 @@ namespace Eshop.Services
             {
                 Name = dto.Name
             };
+
             var insertedAlbum = _albumDAO.AddAlbum(album);
+
+            return insertedAlbum;
         }
 
         public Album? UpdateAlbum(AlbumUpdateDTO dto)
         {
-            _albumDAO.UpdateAlbum(album);
+            var album = new Album()
+            {
+                Name = dto.Name,
+                Id = dto.Id
+            };
+
+            var updatedAlbum = _albumDAO.UpdateAlbum(album);
+            return updatedAlbum;
         }
 
         public List<Album> GetAllAlbums()
         {
-            throw new NotImplementedException();
+            var albums = _albumDAO.GetAllAlbums();
+            return albums;
         }
     }
 }

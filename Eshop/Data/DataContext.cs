@@ -9,6 +9,15 @@ namespace Eshop.Data
         {
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Album>()
+                .HasOne(e => e.Genre)
+                .WithMany(e => e.Albums)
+                .HasForeignKey(e => e.GenreId)
+                .IsRequired(false);
+        }
+
         public DbSet<Album> Albums { get; set; }
     }
 }
