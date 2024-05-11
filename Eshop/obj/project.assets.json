@@ -4523,24 +4523,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manos\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\KonstantinosArgyropo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Eshop.csproj",
+      "projectUniqueName": "C:\\repos\\Eshop-BackEnd\\Eshop\\Eshop.csproj",
       "projectName": "Eshop",
-      "projectPath": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Eshop.csproj",
-      "packagesPath": "C:\\Users\\Manos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\obj\\",
+      "projectPath": "C:\\repos\\Eshop-BackEnd\\Eshop\\Eshop.csproj",
+      "packagesPath": "C:\\Users\\KonstantinosArgyropo\\.nuget\\packages\\",
+      "outputPath": "C:\\repos\\Eshop-BackEnd\\Eshop\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Manos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\KonstantinosArgyropo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

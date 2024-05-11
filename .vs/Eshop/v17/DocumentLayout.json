@@ -1,26 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\",
+  "WorkspaceRootPath": "C:\\repos\\Eshop-BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\users\\manos\\desktop\\cs12dotnet8\\eshop\\eshop\\dao\\albumdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\dao\\albumdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\repos\\Eshop-BackEnd\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\users\\manos\\desktop\\cs12dotnet8\\eshop\\eshop\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\repos\\eshop-backend\\eshop\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\users\\manos\\desktop\\cs12dotnet8\\eshop\\eshop\\dao\\ialbumdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\dao\\ialbumdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\repos\\eshop-backend\\eshop\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\users\\manos\\desktop\\cs12dotnet8\\eshop\\eshop\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\services\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\repos\\eshop-backend\\eshop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\users\\manos\\desktop\\cs12dotnet8\\eshop\\eshop\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\repos\\eshop-backend\\eshop\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\models\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\repos\\eshop-backend\\eshop\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|c:\\repos\\eshop-backend\\eshop\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43421BC-F9C5-479A-B93B-ECA89228EA87}|Eshop\\Eshop.csproj|solutionrelative:eshop\\models\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,76 +38,120 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAlbumService.cs",
-              "DocumentMoniker": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Services\\IAlbumService.cs",
-              "RelativeDocumentMoniker": "Eshop\\Services\\IAlbumService.cs",
-              "ToolTip": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Services\\IAlbumService.cs",
-              "RelativeToolTip": "Eshop\\Services\\IAlbumService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:34:05.717Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlbumService.cs",
-              "DocumentMoniker": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Services\\AlbumService.cs",
-              "RelativeDocumentMoniker": "Eshop\\Services\\AlbumService.cs",
-              "ToolTip": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Services\\AlbumService.cs",
-              "RelativeToolTip": "Eshop\\Services\\AlbumService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:33:35.537Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AlbumController.cs",
-              "DocumentMoniker": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Controllers\\AlbumController.cs",
-              "RelativeDocumentMoniker": "Eshop\\Controllers\\AlbumController.cs",
-              "ToolTip": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\Controllers\\AlbumController.cs",
-              "RelativeToolTip": "Eshop\\Controllers\\AlbumController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:22:34.419Z"
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AlbumDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\DAO\\AlbumDAO.cs",
-              "RelativeDocumentMoniker": "Eshop\\DAO\\AlbumDAO.cs",
-              "ToolTip": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\DAO\\AlbumDAO.cs",
-              "RelativeToolTip": "Eshop\\DAO\\AlbumDAO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T19:11:48.767Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAE8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-11T14:08:41.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IAlbumDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\DAO\\IAlbumDAO.cs",
-              "RelativeDocumentMoniker": "Eshop\\DAO\\IAlbumDAO.cs",
-              "ToolTip": "C:\\Users\\Manos\\Desktop\\cs12dotnet8\\Eshop\\Eshop\\DAO\\IAlbumDAO.cs",
-              "RelativeToolTip": "Eshop\\DAO\\IAlbumDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\Eshop\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Eshop\\Data\\DataContext.cs",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\Eshop\\Data\\DataContext.cs",
+              "RelativeToolTip": "Eshop\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-21T20:34:45.991Z"
+              "WhenOpened": "2024-05-11T13:59:34.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Eshop\\Models\\User.cs",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\User.cs",
+              "RelativeToolTip": "Eshop\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:59:14.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "Eshop\\Models\\Album.cs",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Album.cs",
+              "RelativeToolTip": "Eshop\\Models\\Album.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:58:07.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "Eshop\\Models\\Genre.cs",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Genre.cs",
+              "RelativeToolTip": "Eshop\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:52:52.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Artist.cs",
+              "RelativeDocumentMoniker": "Eshop\\Models\\Artist.cs",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Artist.cs",
+              "RelativeToolTip": "Eshop\\Models\\Artist.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:47:49.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Song.cs",
+              "RelativeDocumentMoniker": "Eshop\\Models\\Song.cs",
+              "ToolTip": "C:\\repos\\Eshop-BackEnd\\Eshop\\Models\\Song.cs",
+              "RelativeToolTip": "Eshop\\Models\\Song.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T13:47:11.108Z"
             }
           ]
         }
