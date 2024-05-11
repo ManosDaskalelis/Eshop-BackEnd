@@ -13,7 +13,7 @@ namespace Eshop.DAO
             _dataContext = dataContext;
         }
 
-        public Album GetAlbumById(int albumId)
+        public Album? GetAlbumById(int albumId)
         {
             return _dataContext.Set<Album>().Find(albumId);
         }
@@ -34,17 +34,20 @@ namespace Eshop.DAO
             return albums;
         }
 
-        public Album? IAlbumDAO.AddAlbum(Album album)
+        public Album? AddAlbum(Album album)
         {
             var albumInserted = _dataContext.Add(album);
             _dataContext.SaveChanges();
-            return albumInserted;
+
+            return albumInserted.Entity;
         }
 
-        public Album? IAlbumDAO.UpdateAlbum(Album album)
+        public Album? UpdateAlbum(Album album)
         {
             _dataContext.Entry(album).State = EntityState.Modified;
             _dataContext.SaveChanges();
+
+            return album;
         }
     }
 }
