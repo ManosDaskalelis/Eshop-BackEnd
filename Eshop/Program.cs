@@ -24,6 +24,8 @@ builder.Services.AddDbContext<DataContext>(options =>
 
 builder.Services.AddScoped<IAlbumDAO, AlbumDAO>();
 builder.Services.AddScoped<IAlbumService, AlbumService>();
+builder.Services.AddScoped<ISongDAO, SongDAO>();
+builder.Services.AddScoped<ISongService, SongService>();
 
 var app = builder.Build();
 

@@ -1,5 +1,4 @@
-﻿using Eshop.DAO;
-using Eshop.DTO;
+﻿using Eshop.DTO;
 using Eshop.Models;
 
 namespace Eshop.Services
@@ -7,9 +6,9 @@ namespace Eshop.Services
     public interface IAlbumService
     {
         Album? AddAlbum(AlbumAddDTO dto);
-        Album? GetAlbumById(int id);
+        Album? GetAlbumById(int albumId);
         Album? UpdateAlbum(AlbumUpdateDTO dto);
-        void DeleteAlbum(int albumId);
-        List<Album> GetAllAlbums();
+        void DeleteAlbumById(int albumId);
+        IList<Album> GetAllAlbums();
     }
 }

@@ -16,7 +16,6 @@ namespace Eshop.Controllers
             _albumService = albumService;
         }
 
-        getfilefrompath("C:\repos\Indice.AspNet\src\Indice.Features.Cases.App\{id}");
 
         [HttpGet("GetAlbums")]
         public IEnumerable<Album> GetAlbums()
@@ -49,7 +48,7 @@ namespace Eshop.Controllers
         [HttpDelete("DeleteAlbumById/{id}")]
         public void DeleteAlbum(int id)
         {
-            _albumService.DeleteAlbum(id);
+            _albumService.DeleteAlbumById(id);
         }
     }
 }

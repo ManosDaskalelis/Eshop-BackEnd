@@ -18,7 +18,7 @@ namespace Eshop.DAO
             return _dataContext.Set<Album>().Find(albumId);
         }
 
-        public void DeleteAlbum(int albumId)
+        public void DeleteAlbumById(int albumId)
         {
             var album = _dataContext.Set<Album>().Find(albumId);
             if (album is not null)
@@ -28,11 +28,11 @@ namespace Eshop.DAO
             }
         }
 
-        public List<Album> GetAllAlbums()
-        {
-            var albums = _dataContext.Albums.ToList();
-            return albums;
-        }
+        //public List<Album> GetAllAlbums()
+        //{
+        //    var albums = _dataContext.Albums.ToList();
+        //    return albums;
+        //}
 
         public Album? AddAlbum(Album album)
         {
@@ -48,6 +48,12 @@ namespace Eshop.DAO
             _dataContext.SaveChanges();
 
             return album;
+        }
+
+        public IList<Album> GetAllAlbums()
+        {
+            var albums = _dataContext.Albums.ToList();
+            return albums;
         }
     }
 }

@@ -6,8 +6,8 @@ namespace Eshop.DAO
     {
         Album? AddAlbum(Album album);
         Album? GetAlbumById(int albumId);
-        List<Album> GetAllAlbums();
+        IList<Album> GetAllAlbums();
         Album? UpdateAlbum(Album album);
-        void DeleteAlbum(int albumId);
+        void DeleteAlbumById(int albumId);
     }
 }

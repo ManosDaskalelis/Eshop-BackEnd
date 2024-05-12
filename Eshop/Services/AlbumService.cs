@@ -18,9 +18,9 @@ namespace Eshop.Services
             return _albumDAO.GetAlbumById(albumId);
         }
 
-        public void DeleteAlbum(int albumId)
+        public void DeleteAlbumById(int albumId)
         {
-            _albumDAO.DeleteAlbum(albumId);
+            _albumDAO.DeleteAlbumById(albumId);
         }
 
         public Album? AddAlbum(AlbumAddDTO dto)
@@ -47,7 +47,7 @@ namespace Eshop.Services
             return updatedAlbum;
         }
 
-        public List<Album> GetAllAlbums()
+        public IList<Album> GetAllAlbums()
         {
             var albums = _albumDAO.GetAllAlbums();
             return albums;
