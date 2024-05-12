@@ -39,16 +39,16 @@ namespace Eshop.Controllers
         }
 
         [HttpGet("GetAlbumById/{id}")]
-        public Album? GetAlbumById(int id)
+        public Album? GetAlbumById(int albumId)
         {
-            var album = _albumService.GetAlbumById(id);
+            var album = _albumService.GetAlbumById(albumId);
             return album;
         }
 
         [HttpDelete("DeleteAlbumById/{id}")]
-        public void DeleteAlbum(int id)
+        public void DeleteAlbum(int albumId)
         {
-            _albumService.DeleteAlbumById(id);
+            _albumService.DeleteAlbumById(albumId);
         }
     }
 }
