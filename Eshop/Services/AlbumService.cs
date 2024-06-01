@@ -13,29 +13,29 @@ namespace Eshop.Services
             _albumDAO = albumDAO;
         }
 
-        public Album? GetAlbumById(int albumId)
-        {
-            return _albumDAO.GetAlbumById(albumId);
-        }
-
-        public void DeleteAlbumById(int albumId)
-        {
-            _albumDAO.DeleteAlbumById(albumId);
-        }
-
-        public Album? AddAlbum(AlbumAddDTO dto)
+        public async Task<Album?> AddAlbum(AlbumAddDTO dto)
         {
             var album = new Album()
             {
                 Name = dto.Name
             };
 
-            var insertedAlbum = _albumDAO.AddAlbum(album);
-
+            var insertedAlbum = await _albumDAO.AddAlbum(album);
             return insertedAlbum;
         }
 
-        public Album? UpdateAlbum(AlbumUpdateDTO dto)
+        public async Task<List<Album>> GetAllAlbums()
+        {
+            var albums = await _albumDAO.GetAllAlbums();
+            return albums;
+        }
+
+        public async Task<Album?> GetAlbumById(int albumId)
+        {
+            return await _albumDAO.GetAlbumById(albumId);
+        }
+
+        public async Task<Album?> UpdateAlbum(AlbumUpdateDTO dto)
         {
             var album = new Album()
             {
@@ -43,14 +43,13 @@ namespace Eshop.Services
                 Id = dto.Id
             };
 
-            var updatedAlbum = _albumDAO.UpdateAlbum(album);
+            var updatedAlbum = await _albumDAO.UpdateAlbum(album);
             return updatedAlbum;
         }
 
-        public IList<Album> GetAllAlbums()
+        public async Task<bool> DeleteAlbumById(int albumId)
         {
-            var albums = _albumDAO.GetAllAlbums();
-            return albums;
+            return await _albumDAO.DeleteAlbumById(albumId);
         }
     }
 }

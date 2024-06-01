@@ -16,32 +16,31 @@ namespace Eshop.Controllers
             _albumService = albumService;
         }
 
-
         [HttpGet("GetAlbums")]
-        public IEnumerable<Album> GetAlbums()
+        public async Task<List<Album>> GetAlbums()
         {
-            var list = _albumService.GetAllAlbums();
+            var list = await _albumService.GetAllAlbums();
             return list;
         }
 
         [HttpPost("AddAlbum")]
-        public Album? PostAlbum(AlbumAddDTO albumDto) 
+        public async Task<Album?> PostAlbum(AlbumAddDTO albumDto) 
         {
-            var album = _albumService.AddAlbum(albumDto);
+            var album = await _albumService.AddAlbum(albumDto);
             return album;
         }
 
         [HttpPatch("UpdateAlbum")]
-        public Album? UpdateAlbum(AlbumUpdateDTO albumDto)
+        public async Task<Album?> UpdateAlbum(AlbumUpdateDTO albumDto)
         {
-            var album = _albumService.UpdateAlbum(albumDto);
+            var album = await _albumService.UpdateAlbum(albumDto);
             return album;
         }
 
         [HttpGet("GetAlbumById/{id}")]
-        public Album? GetAlbumById(int albumId)
+        public async Task<Album?> GetAlbumById(int albumId)
         {
-            var album = _albumService.GetAlbumById(albumId);
+            var album = await _albumService.GetAlbumById(albumId);
             return album;
         }
 

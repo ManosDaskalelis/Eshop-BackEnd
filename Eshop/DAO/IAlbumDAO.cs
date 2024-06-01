@@ -4,10 +4,10 @@ namespace Eshop.DAO
 {
     public interface IAlbumDAO
     {
-        Album? AddAlbum(Album album);
-        Album? GetAlbumById(int albumId);
-        IList<Album> GetAllAlbums();
-        Album? UpdateAlbum(Album album);
-        void DeleteAlbumById(int albumId);
+        Task<Album?> AddAlbum(Album album);
+        Task<Album?> GetAlbumById(int albumId);
+        Task<List<Album>> GetAllAlbums();
+        Task<Album?> UpdateAlbum(Album album);
+        Task<bool> DeleteAlbumById(int albumId);
     }
 }

@@ -13,47 +13,44 @@ namespace Eshop.DAO
             _dataContext = dataContext;
         }
 
-        public Album? GetAlbumById(int albumId)
+        public async Task<Album?> AddAlbum(Album album)
         {
-            return _dataContext.Set<Album>().Find(albumId);
-        }
-
-        public void DeleteAlbumById(int albumId)
-        {
-            var album = _dataContext.Set<Album>().Find(albumId);
-            if (album is not null)
-            {
-                _dataContext.Set<Album>().Remove(album);
-                _dataContext.SaveChanges();
-            }
-        }
-
-        //public List<Album> GetAllAlbums()
-        //{
-        //    var albums = _dataContext.Albums.ToList();
-        //    return albums;
-        //}
-
-        public Album? AddAlbum(Album album)
-        {
-            var albumInserted = _dataContext.Add(album);
-            _dataContext.SaveChanges();
+            var albumInserted = await _dataContext.AddAsync(album);
+            await _dataContext.SaveChangesAsync();
 
             return albumInserted.Entity;
         }
 
-        public Album? UpdateAlbum(Album album)
+        public async Task<Album?> GetAlbumById(int albumId)
+        {
+            return await _dataContext.Set<Album>().FindAsync(albumId);
+        }
+
+        public async Task<List<Album>> GetAllAlbums()
+        {
+            var albums = await _dataContext.Albums.ToListAsync();
+            return albums;
+        }
+
+        public async Task<Album?> UpdateAlbum(Album album)
         {
             _dataContext.Entry(album).State = EntityState.Modified;
-            _dataContext.SaveChanges();
+            await _dataContext.SaveChangesAsync();
 
             return album;
         }
 
-        public IList<Album> GetAllAlbums()
+        public async Task<bool> DeleteAlbumById(int albumId)
         {
-            var albums = _dataContext.Albums.ToList();
-            return albums;
+            var album = await _dataContext.Set<Album>().FindAsync(albumId);
+            if (album is not null)
+            {
+                _dataContext.Set<Album>().Remove(album);
+                await _dataContext.SaveChangesAsync();
+                return true;
+            }
+
+            return false;
         }
     }
 }

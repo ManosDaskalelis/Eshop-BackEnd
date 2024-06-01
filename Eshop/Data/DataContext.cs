@@ -9,14 +9,13 @@ namespace Eshop.Data
         {
         }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Album>()
-        //        .HasOne(e => e.Genre)
-        //        .WithMany(e => e.Albums)
-        //        .HasForeignKey(e => e.GenreId)
-        //        .IsRequired(false);
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Album>()
+                .HasMany(a => a.Songs)
+                .WithOne(s => s.Album)
+                .HasForeignKey(s => s.AlbumId);
+        }
 
         public DbSet<Album> Albums { get; set; }
         public DbSet<Song> Songs { get; set; }

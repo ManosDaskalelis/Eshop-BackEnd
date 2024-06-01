@@ -5,10 +5,10 @@ namespace Eshop.Services
 {
     public interface IAlbumService
     {
-        Album? AddAlbum(AlbumAddDTO dto);
-        Album? GetAlbumById(int albumId);
-        Album? UpdateAlbum(AlbumUpdateDTO dto);
-        void DeleteAlbumById(int albumId);
-        IList<Album> GetAllAlbums();
+        Task<Album?> AddAlbum(AlbumAddDTO dto);
+        Task<List<Album>> GetAllAlbums();
+        Task<Album?> GetAlbumById(int albumId);
+        Task<Album?> UpdateAlbum(AlbumUpdateDTO dto);
+        Task<bool> DeleteAlbumById(int albumId);
     }
 }
